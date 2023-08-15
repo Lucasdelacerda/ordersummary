@@ -21,7 +21,6 @@ body{
 }
 
 main{
-	max-height:100vh;
 	background: hsl(225,100%, 98%);
 	max-width: 450px;
 	border-radius: 20px;
