@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css" type="text/css">
   <title>Frontend Mentor | Order summary card</title>
 
 </head>
+
 <body>
-<main>
-  
-	<img class="img-hero" alt="person with headphone and dancing" src="/images/illustration-hero.svg">
-<h1 class="title">  Order Summary</h1>
+  <main>
 
-  <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!</p>
+    <img class="img-hero" alt="person with headphone and dancing" src="/images/illustration-hero.svg">
+    <h1 class="title"> Order Summary</h1>
 
-  <div class="plan">
-    <img class="icon-music" src="images/icon-music.svg">
-  	<h2 class="price-title">Annual Plan
-  <span class="price">$59.99/year</span></h2>
-  <a class="other-plans"  href="#">Change</a>
-  </div>
-  <a class="payment" href="#"><button>Proceed to Payment</button></a>
-  <a class="cancel" href="#">Cancel Order</a>
-</main>
-  
+    <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any
+      device anywhere you like!</p>
+    <div class="content">
+      <div class="other-plan" id="showPlan">
+        <img class="icon-music" src="./images/icon-music.svg">
+        <h2 class="price-title">Mensal Plan
+          <span class="price">$9.99/year</span>
+        </h2>
+
+      </div>
+      <div class="chosen-plan">
+        <img class="icon-music" src="./images/icon-music.svg">
+        <h2 class="price-title">Annual Plan
+          <span class="price">$59.99/year</span>
+        </h2>
+        <a class="change-plan" id="choice" href="#">Change</a>
+      </div>
+    </div>
+
+    <a class="payment" href="#"><button>Proceed to Payment</button></a>
+    <a class="cancel" href="#">Cancel Order</a>
+  </main>
+
 </body>
+
 </html>
