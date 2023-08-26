@@ -5,12 +5,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
-  - [Table of contents](#table-of-contents)
+
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
+  
     - [Built with](#built-with)
   - [Author](#author)
 
@@ -30,10 +30,9 @@ Order summary is an interaction project so that the user can subscribe to the st
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Lucasdelacerda/ordersummary)
-- Live Site URL: [Add live site URL here](https://lucasdelacerda.github.io/ordersummary/)
+- Solution URL: https://github.com/Lucasdelacerda/ordersummary
+- Live Site URL: https://lucasdelacerda.github.io/ordersummary/
 
-## My process
 
 ### Built with
 
@@ -41,7 +40,7 @@ Order summary is an interaction project so that the user can subscribe to the st
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Javascript
+
 
 ## Author
 
